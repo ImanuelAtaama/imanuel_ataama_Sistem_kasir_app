@@ -1,2 +1,36 @@
-
-
+Fungsi Utama
+    Deklarasikan Real pajak
+    Deklarasikan Real bayar
+    Deklarasikan Bilangan Bulat order
+    
+    Masukan order
+    Deklarasikan Real total
+    Deklarasikan Bilangan Bulat i
+    
+    Tugaskan total = 0
+    Untuk  i = 1 hingga order
+        Deklarasikan Bilangan Bulat pilih
+        Deklarasikan Bilangan Bulat jumlah
+        Deklarasikan Real harga
+        
+        Masukan pilih
+        Masukan jumlah
+        Jika  pilih == 1
+            Tugaskan harga = 10*jumlah
+        Kalau tidak
+            Jika  pilih == 2
+                Tugaskan harga = 15*jumlah
+            Kalau tidak
+                Jika  pilih == 3
+                    Tugaskan harga = 5*jumlah
+                Akhir
+            Akhir
+        Akhir
+        Tugaskan total = total + harga
+    Akhir
+    Tugaskan pajak = total *(11/100)
+    Tugaskan bayar = total + pajak
+    Keluaran total
+    Keluaran pajak
+    Keluaran bayar
+Akhir
